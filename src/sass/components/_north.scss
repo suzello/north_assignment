@@ -1,0 +1,67 @@
+.heading-text{
+    font-family: $font-body;
+    font-size: $f-40;
+    color: $heading-grey-text;
+    text-transform: uppercase;
+}
+.display-list{
+    font-family: $font-body;
+    display: flex;
+    flex-flow: row wrap;
+    color: $grey-text;
+    .display-list__main-content{
+        margin-top: 1rem;
+        &:nth-of-type(odd){
+            margin-right: 1.6rem;
+        }
+        .main-content__title{
+            text-transform: capitalize;
+        }
+        .main-content__type{
+            text-transform: capitalize;
+        }
+        .main-content__image{
+            width: 200px;
+            height: 130px;
+        }
+        .main-content__btn-container{
+            margin-top: 1rem;
+            .btn-container--btn-blue{
+                border:none;
+                background: $btn-blue;
+                color:$text-white;
+                font-size: $f-16;
+                width: 90px;
+                height: 35px;
+                margin-right: 1.2rem;
+                &:hover{
+                    background: $btn-blue-hover;
+                }
+            }        
+            .btn-container--btn-red{
+                border:none;
+                background: $btn-red;
+                color:$text-white;
+                font-size: $f-16;
+                width: 90px;
+                height: 35px;
+                &:hover{
+                    background: $btn-red-hover;
+                }
+            }
+        }
+    }
+}
+
+.ReactModalPortal{
+    .container--grey-text{
+        color: $grey-text;
+        font-family: $font-body;
+        font-size: $f-16;
+        margin-bottom: 0.3rem;
+    }
+    .container--image{
+        width: 200px;
+        height: 130px;
+    }
+}
