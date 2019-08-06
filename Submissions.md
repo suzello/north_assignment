@@ -8,5 +8,5 @@ I tried to find a way to do this but, I was not able to find a proper solution
 
 4) So currently after deleting a element, the page will be refreshed with updated elements only if you manually refresh it.
 
-5)Used Axios to do HTTP requests - intresting read as to why this is better than fetch API - https://link.medium.com/QNe8f3QlVY
+5) Used Axios to do HTTP requests - intresting read as to why this is better than fetch API - https://link.medium.com/QNe8f3QlVY
 
